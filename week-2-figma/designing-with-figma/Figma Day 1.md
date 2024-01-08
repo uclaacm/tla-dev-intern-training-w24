@@ -1,28 +1,28 @@
-# Designing with Figma: Day 1
+# Designing with Figma: Day 1 <!-- omit in toc -->
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-* What is Figma?
-* [Planning](#planning)
-  * Storytelling and flow
-  * Mood boards
-  * Color
-  * Style guides
-  * Common web layouts
-    * A note on responsive design
-* [Creating a wireframe](#creating-a-wireframe)
-  * Frames and presets
-  * Shape tools and pencil
-  * Auto layout and alignment
-* [User experience + accessibility](#what-makes-good-design) part 1
-  * Readable body text
-  * White space!
-* [Basic prototyping](#basic-prototyping)
-  * But first, components
-  * Connections
-  * Preview
-
-* [Further reading](#sources-and-further-reading)
+- [What is Figma?](#what-is-figma)
+- [Planning](#planning)
+  - [Storytelling and flow](#storytelling-and-flow)
+  - [Research and mood boards](#research-and-mood-boards)
+  - [Color](#color)
+  - [Style guides](#style-guides)
+  - [Layouts](#layouts)
+    - [A note on responsive design](#a-note-on-responsive-design)
+- [Creating a wireframe](#creating-a-wireframe)
+  - [Alignment](#alignment)
+- [What makes good design?](#what-makes-good-design)
+  - [Readable body text](#readable-body-text)
+  - [White space](#white-space)
+- [Basic prototyping](#basic-prototyping)
+  - [But first, components](#but-first-components)
+  - [Making connections](#making-connections)
+  - [Content organization](#content-organization)
+  - [Nice work!](#nice-work)
+- [Sources and further reading](#sources-and-further-reading)
+  - [A note on keeping up](#a-note-on-keeping-up)
+  - [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## What is Figma?
 

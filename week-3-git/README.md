@@ -1,11 +1,31 @@
-# Week 3 (Dev) - git good at Git
+# Week 3 - git good at Git <!-- omit in toc -->
 
-Have you ever used `git`? The ubiquitous program that dominates
-code versioning in industry has a lot more going for it than
-you might think. Below are Leo's notes for a deep dive into
-the inner-machinations of the utility we use every day.
+Have you ever used `git`? The ubiquitous program that dominates code versioning in industry has a lot more going for it than you might think. Below are Leo's notes for a deep dive into the inner-machinations of the utility we use every day.
 
-[:toc]
+## Table of Contents <!-- omit in toc -->
+- [Required Software](#required-software)
+- [What is Git?](#what-is-git)
+- [Why CLI?](#why-cli)
+- [Using Git](#using-git)
+  - [Configuring our User](#configuring-our-user)
+  - [Creating a Repository, Making Commits](#creating-a-repository-making-commits)
+  - [Branches](#branches)
+  - [Reviewing our Commits](#reviewing-our-commits)
+  - [Merging Branches](#merging-branches)
+  - [Conflicts](#conflicts)
+  - [Local **and** Distributed](#local-and-distributed)
+  - [Picking a single commit](#picking-a-single-commit)
+- [Getting a little more technical](#getting-a-little-more-technical)
+  - [What is a repository *really*?](#what-is-a-repository-really)
+  - [What are commits *really*?](#what-are-commits-really)
+- [How this applies to graphical interfaces](#how-this-applies-to-graphical-interfaces)
+- [How this applies to GitHub](#how-this-applies-to-github)
+  - [Forks](#forks)
+  - [Pull requests](#pull-requests)
+  - [Tags, Releases](#tags-releases)
+- [Bonus: Enforcing Linting, Code Style, etc. with Git Hooks](#bonus-enforcing-linting-code-style-etc-with-git-hooks)
+- [Licensing](#licensing)
+
 
 ## Required Software
 
@@ -437,3 +457,9 @@ This said, there's plenty of well-documented Git hooks you can
 work with beyond pre-commit. Remember, though, that these
 hooks won't be pushed to your GitHub repository. That's
 why pre-commit (the npm package) is used.
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021..  

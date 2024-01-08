@@ -1,4 +1,4 @@
-# Intro to Backend
+# Week 7 - Intro to Backend  <!-- omit in toc -->
 
 * [Link to video of the last talk I gave.](https://www.youtube.com/watch?v=kwy4U0980Eg)
 * [Some slides to accompany](https://docs.google.com/presentation/d/1kvo8d2qLvx4pVm7T6aNCNGPPsBWgTQjZIiLRT6wPgOk/edit?usp=sharing)
@@ -14,27 +14,27 @@ Have you ever wanted to build a messaging app, or something with storage that pe
 
 By the end of this talk, you'll be able to think at a high level about the partitioning of a webapp, and write your own (admittedly basic) fullstack application.
 
-## Table of Contents
+## Table of Contents  <!-- omit in toc -->
 
-* [Table of Contents](#table-of-contents)
-* [Why bother?](#why-bother)
-* [Why is it cool?](#why-is-it-cool)
-    * [The language we want to work in](#the-language-we-want-to-work-in)
-    * [The framework, libraries we want to use](#the-framework-libraries-we-want-to-use)
-    * [Implementation details, optimization](#implementation-details-optimization)
-* [Backend Vocabulary](#backend-vocabulary)
-    * [Requests, responses](#requests-responses)
-    * [HTTP Methods](#http-methods)
-    * [Endpoints](#endpoints)
-    * [RESTful](#restful)
-    * [GraphQL](#graphql)
-* [Common Backend Frameworks](#common-backend-frameworks)
-* [Building a basic backend](#building-a-basic-backend)
-* [Now what?](#now-what)
-* [Things that you should check out](#things-that-you-should-check-out)
+- [Why bother?](#why-bother)
+- [Why is it cool?](#why-is-it-cool)
+  - [The language we want to work in](#the-language-we-want-to-work-in)
+  - [The framework, libraries we want to use](#the-framework-libraries-we-want-to-use)
+  - [Implementation details, optimization](#implementation-details-optimization)
+- [Backend Vocabulary](#backend-vocabulary)
+  - [Requests, responses](#requests-responses)
+  - [HTTP Methods](#http-methods)
+  - [Endpoints](#endpoints)
+  - [RESTful](#restful)
+  - [GraphQL](#graphql)
+- [Common Backend Frameworks](#common-backend-frameworks)
+- [Building a Basic Backend](#building-a-basic-backend)
+- [Now what?](#now-what)
+- [Things that you should check out](#things-that-you-should-check-out)
+- [Licensing](#licensing)
+
 
 ## Why bother?
-
 So why do we even need a backend? There are very clearly [some APIs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) that let us store information for our webapp locally, and we can make requests to other APIs with [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) -- why bother with writing our own backend?
 
 Let's pretend we're writing our own messaging service, or a maps service, or really anything that passes around a large amount of data and/or secure data. We want to make sure that our service is difficult to break into. This immediately explains why we might want a backend.
@@ -169,7 +169,7 @@ This said, you actually don't need to use a framework if you don't want to. If y
 
 In this part of the talk, I'll walk you through how we can build a basic """"fullstack"""" application entirely within the Node ecosystem. It will consist of a simple message board that we can post messages to.
 
-# Now what?
+## Now what?
 
 The main goal of this backend is to cover **how to apply the concepts we learned** and **how to connect it to our frontend**. Some future extensions that you might want to add, if interested, are things like live updates. If we wanted to add likes to messages and have clients update live, we could use something like a websocket-based API, or expose a subscriptions-based event API.
 
@@ -192,4 +192,10 @@ Here are some resources to help demystify those terms I just threw out:
 * [MongoDB](https://www.mongodb.com/), a non-relational, document-based database
 * [PostgreSQL](https://www.postgresql.org/), a relational, industry-standard database
     * This said, it is falling off in popularity these days.
-* [Auth0 blog post on how passwords should be stored](https://auth0.com/blog/hashing-passwords-one-way-road-to-security/)
+* [Auth0 blog post on how passwords should be stored](https://auth0.com/blog/hashing-passwords-one-way-road-to-security/) -->
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.

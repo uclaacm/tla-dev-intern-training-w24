@@ -1,6 +1,7 @@
-# Accessibility and Best Practices
+# Accessibility and Best Practices <!-- omit in toc -->
 
 *Note: this writeup + live demo is copied over from our [Summer Learning Lab Crash Course](https://github.com/uclaacm/learning-lab-crash-course-su20/tree/master/13-accessibility), where our friend Karen ran an [accessibility demo](https://github.com/electricdinosaurs/accessibility-demo)!*
+
 
 ## Overview
 
@@ -10,26 +11,29 @@ This workshop assumes an intermediate knowledge of HTML and CSS. Unlike previous
 
 ## Table of Contents
 
-* [What Does Accessibility Involve?](#what-does-accessibility-involve)
-* [Appearance](#appearance)
-  * [Fonts and Font Sizes](#fonts-and-font-sizes)
-  * [Line Height](#line-height)
-  * [Zoom Levels](#zoom-levels)
-  * [Color Contrast](#color-contrast)
-* [Supporting Screenreaders](#supporting-screenreaders)
-  * [Semantic HTML](#semantic-html)
-  * [Tabindex](#tabindex)
-  * [Language Specification](#language-specification)
-* [Images and Videos](#images-and-videos)
-  * [Alt text](#alt-text)
-  * [Transcripts](#transcripts)
-  * [Autoplay](#autoplay)
-  * [Animations](#animations)
-* [Content Reading Level](#content-reading-level)
-* [Conclusion](#conclusion)
-* [Accessibility Checkers](#accessibility-checkers)
-* [Further Reading](#further-reading)
-* [Reference Links](#reference-links)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [What Does Accessibility Involve?](#what-does-accessibility-involve)
+- [Appearance](#appearance)
+  - [Fonts and Font Sizes](#fonts-and-font-sizes)
+  - [Line Height](#line-height)
+  - [Zoom Levels](#zoom-levels)
+  - [Color Contrast](#color-contrast)
+- [Supporting Screenreaders](#supporting-screenreaders)
+  - [Semantic HTML](#semantic-html)
+  - [Tabindex](#tabindex)
+  - [Language Specification](#language-specification)
+- [Images and Videos](#images-and-videos)
+  - [Alt text](#alt-text)
+  - [Transcripts](#transcripts)
+  - [Autoplay](#autoplay)
+  - [Animations](#animations)
+- [Content Reading Level](#content-reading-level)
+- [Conclusion](#conclusion)
+- [Accessibility Checkers](#accessibility-checkers)
+- [Further Reading](#further-reading)
+- [Reference Links](#reference-links)
+- [Licensing](#licensing)
 
 ## What Does Accessibility Involve?
 
@@ -407,3 +411,9 @@ Bonus (not covered today)
 
 * [External links](https://codersblock.com/blog/external-links-new-tabs-and-accessibility/)
 * [Gifffer (a JS library that allows pausing GIFs!)](https://github.com/krasimir/gifffer)
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.

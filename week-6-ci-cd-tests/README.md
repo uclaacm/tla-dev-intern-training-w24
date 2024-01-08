@@ -1,31 +1,29 @@
-# Week 6: CI/CD, Testing
-
-## Overview
+# Week 6 - CI/CD, Testing  <!-- omit in toc -->
 
 We talk about some of the under-the-hood tooling and testing practices that can make our lives easier and make sure that our code quality is great! In particular, we wanted to touch on topics that are rarely seen in student organization dev teams: automating continuous integration and continuous development (CI/CD), and testing our (JS/React) code with Enzyme and Jest.
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-* [Table of Contents](#table-of-contents)
-* [CI &amp; CD - Abstract](#ci--cd---abstract)
-* [Testing in Javascript (with Jest)](#testing-in-javascript-with-jest)
-  * [What is testing? Why testing is important?](#what-is-testing-why-testing-is-important)
-    * [Integration vs Unit Tests](#integration-vs-unit-tests)
-    * [Test-Driven Development](#test-driven-development)
-  * [Testing with Jest](#testing-with-jest)
-    * [The "Hello World"](#the-hello-world)
-    * [Testing React Components with Jest and Enzyme](#testing-react-components-with-jest-and-enzyme)
-  * [Mocking Browser Interactions](#mocking-browser-interactions)
-  * [Dependency Injection et al.](#dependency-injection-et-al)
-  * [And... Writing Test-Friendly Code](#and-writing-test-friendly-code)
-  * [Further Reading &amp; References](#further-reading--references)
-* [CI/CD in Practice: Linters](#cicd-in-practice-linters)
-  * [Installing and Configuring Stylelint](#installing-and-configuring-stylelint)
-  * [Automating Stylelint as a CI Action](#automating-stylelint-as-a-ci-action)
-  * [Stylelint Addendum: SASS](#stylelint-addendum-sass)
-  * [Zipping through ESLint](#zipping-through-eslint)
-  * [Next Steps: Commit Hooks](#next-steps-commit-hooks)
-  * [An Addendum: Editor Extensions](#an-addendum-editor-extensions)
+- [CI \& CD - Abstract](#ci--cd---abstract)
+- [Testing in Javascript (with Jest)](#testing-in-javascript-with-jest)
+  - [What is testing? Why testing is important?](#what-is-testing-why-testing-is-important)
+    - [Integration vs Unit Tests](#integration-vs-unit-tests)
+    - [Test-Driven Development](#test-driven-development)
+  - [Testing with Jest](#testing-with-jest)
+    - [The "Hello World"](#the-hello-world)
+    - [Testing React Components with Jest and Enzyme](#testing-react-components-with-jest-and-enzyme)
+  - [Mocking Browser Interactions](#mocking-browser-interactions)
+  - [Dependency Injection et al.](#dependency-injection-et-al)
+  - [And... Writing Test-Friendly Code](#and-writing-test-friendly-code)
+  - [Further Reading \& References](#further-reading--references)
+- [CI/CD in Practice: Linters](#cicd-in-practice-linters)
+  - [Installing and Configuring Stylelint](#installing-and-configuring-stylelint)
+  - [Automating Stylelint as a CI Action](#automating-stylelint-as-a-ci-action)
+  - [Stylelint Addendum: SASS](#stylelint-addendum-sass)
+  - [Zipping through ESLint](#zipping-through-eslint)
+  - [Next Steps: Commit Hooks](#next-steps-commit-hooks)
+  - [An Addendum: Editor Extensions](#an-addendum-editor-extensions)
+- [Licensing](#licensing)
 
 ## CI & CD - Abstract
 
@@ -550,3 +548,9 @@ neat! Beyond that though, you can always [read the examples](https://github.com/
 ### An Addendum: Editor Extensions
 
 A quick note: many popular editors and IDEs (like VSCode) have plugins for stylelint and ESLint that work when you have `.stylelintrc` or `.eslintrc` files in your directory. They can syntax-highlight errors, auto-format code, and provide quick fixes to errors. I encourage you to check them out, they make life convenient!
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.

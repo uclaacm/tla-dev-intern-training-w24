@@ -1,33 +1,18 @@
-# Week 2 (Dev) - Thinking in React
+# Week 4.2 - Functional Programming in React <!-- omit in toc -->
 
-Here are Matt's notes for the relatively erratic "thinking in react" workshop for Teach LA's '21 dev interns!
+## Table of Contents <!-- omit in toc -->
 
-## Table of Contents
-
-* [Blitzing over React basics](#blitzing-over-react-basics)
-* [Functional programming in React](#functional-programming-in-react)
-  * [map, filter, reduce](#map-filter-reduce)
-    * [Array.prototype.map()](#arrayprototypemap)
-    * [Array.prototype.filter()](#arrayprototypefilter)
-    * [Array.prototype.reduce()](#arrayprototypereduce)
-  * [Higher-order functions and two-way state](#higher-order-functions-and-two-way-state)
-  * [Composition](#composition)
-  * [Containment](#containment)
-  * [Composition versus Inheritance](#composition-versus-inheritance)
-  * [Partial application and 'currying'](#partial-application-and-currying)
-* [Classes versus Hooks](#classes-versus-hooks)
-  * [JS Classes (and why they're not like OOP)](#js-classes-and-why-theyre-not-like-oop)
-  * [useEffect versus component lifecycle](#useeffect-versus-component-lifecycle)
-* [Misc. React](#misc-react)
-  * [React Router](#react-router)
-  * [Why Redux (or others)](#why-redux-or-others)
-  * [CRA Goodies](#cra-goodies)
-* [Conclusion](#conclusion)
-* [Licensing](#licensing)
-
-## Blitzing over React basics
-
-In this section, Matt basically recaps everything from the QWER Hacks tutorial videos. For written notes, please check out the [QWER Hacks '21 React 101 Workshop](https://github.com/mattxwang/qwerhacks-21-workshops/tree/main/react/main-workshop).
+- [Functional programming in React](#functional-programming-in-react)
+  - [map, filter, reduce](#map-filter-reduce)
+    - [Array.prototype.map()](#arrayprototypemap)
+    - [Array.prototype.filter()](#arrayprototypefilter)
+    - [Array.prototype.reduce()](#arrayprototypereduce)
+  - [Higher-order functions and two-way state](#higher-order-functions-and-two-way-state)
+  - [Composition](#composition)
+  - [Containment](#containment)
+  - [Composition versus Inheritance](#composition-versus-inheritance)
+  - [Partial application and 'currying'](#partial-application-and-currying)
+- [Licensing](#licensing)
 
 ## Functional programming in React
 
@@ -386,7 +371,7 @@ Functional programming enthusiasts might ask two things:
 
 Without explicitly diving into both of these questions, the short answer is kinda and no. Functions in JavaScript are first-class citizens, but they don't work the same way internally as languages like Haskell and OCaml. In particular, many common optimizations - tail-call/tail-recursion optimization, strict argument enforcement, mutability guarantees, etc. - don't actually exist in JS. The version of partial application that we introduced involves [closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures); true currying isn't really supported in JavaScript, because the amount of arguments a function can have is not fixed (and it's also not how the language was designed, leading to unoptimal code). I'd encourage you to look more into this yourself; I (matt) am definitely not an absolute expert in this field!
 
-## Classes versus Hooks
+<!-- ## Classes versus Hooks
 
 Matt discusses the class-based versus hooks-based approaches to writing React components, and some of their upsides and downsides.
 
@@ -410,10 +395,10 @@ Moved to another week.
 
 ## Conclusion
 
-Moved to another week.
+Moved to another week. -->
 
 ## Licensing
 
-The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w21/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
 
-We'd love to hear if you found this helpful, or if you have any suggestions! Please send matt an email at [matt@matthewwang.me](mailto:matt@matthewwang.me) or reach out to him on the ACM / Teach LA slack!
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.

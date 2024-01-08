@@ -1,18 +1,21 @@
-# Maintainable Code, Maintainable Projects
+# Week 5 - Maintainable Code, Maintainable Projects <!-- omit in toc -->
 
 We ran this workshop with all of our interns (dev and PM), but it was much more discussion-based and activity-based. Here are some brief notes and examples we went through.
 
-* [Warmup Examples](#warmup-examples)
-* [General Discussion Topics](#general-discussion-topics)
-* [Reflections From Matt](#reflections-from-matt)
-* [Refactoring Code, Internal](#refactoring-code-internal)
-  * [Static - CSS/SCSS](#static---cssscss)
-  * [Editor (short) - JS/React](#editor-short---jsreact)
-  * [Editor (long) - JS/React](#editor-long---jsreact)
-* [Refactoring Code, External](#refactoring-code-external)
-  * [JS - Banking (EJS)](#js---banking-ejs)
-  * [React - Custom Hooks](#react---custom-hooks)
-  * [React - HOC](#react---hoc)
+## Table of Contents <!-- omit in toc -->
+
+- [Warmup Examples](#warmup-examples)
+- [General Discussion Topics](#general-discussion-topics)
+- [Reflections From Matt](#reflections-from-matt)
+- [Refactoring Code, Internal](#refactoring-code-internal)
+  - [Static - CSS/SCSS](#static---cssscss)
+  - [Editor (short) - JS/React](#editor-short---jsreact)
+  - [Editor (long) - JS/React](#editor-long---jsreact)
+- [Refactoring Code, External](#refactoring-code-external)
+  - [JS - Banking (EJS)](#js---banking-ejs)
+  - [React - Custom Hooks](#react---custom-hooks)
+  - [React - HOC](#react---hoc)
+- [Licensing](#licensing)
 
 ## Warmup Examples
 
@@ -628,3 +631,9 @@ class BlogPost extends React.Component {
   }
 }
 ```
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.

@@ -1,8 +1,18 @@
-# Jekyll and the Teach LA Static Site
+# Week 8 - Jekyll and the Teach LA Static Site <!-- omit in toc -->
 
 This is a part-Jekyll tutorial, part static-site walkthrough. The goal after this is to be equipped with the skills necessary to run our static site team! In this though, we'll go a bit fast on the basics; in particular, we assume pretty good familiarity with HTML, CSS, the command line, and a passing understanding of SASS.
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
+
+- [Setup](#setup)
+- [Motivation and Background](#motivation-and-background)
+  - [An aside on the Ruby ecosystem](#an-aside-on-the-ruby-ecosystem)
+- [Jekyll, the Important Parts](#jekyll-the-important-parts)
+  - [Converting constants to HTML](#converting-constants-to-html)
+  - [`_includes`: HTML as data](#_includes-html-as-data)
+  - [`_layouts`](#_layouts)
+- [Licensing](#licensing)
+
 
 ## Setup
 
@@ -330,8 +340,14 @@ layout: default
 
 Layouts are one of the *most* powerful parts of Jekyll - layouts alone have cut down code duplication on projects I've worked on by over 50%!
 
-### `_data` and control flow: converting data into elements on a page
+<!-- ### `_data` and control flow: converting data into elements on a page
 
 ### **collections**: converting data *into* a page
 
-### SASS: CSS as data
+### SASS: CSS as data -->
+
+## Licensing
+
+The contents of this repository are dual-licensed under the [MIT License](https://github.com/uclaacm/tla-dev-intern-training-w24/blob/main/LICENSE) and the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/); feel free to use whichever license suits your purpose better.
+
+Adapted from [Teach LA Dev Intern Training W21](https://github.com/uclaacm/tla-dev-intern-training-w21) written by Matt Wang, (matt@matthewwang.me), Teach LA Dev Team President 2020-2021.
