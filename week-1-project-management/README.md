@@ -32,6 +32,8 @@ In Teach LA, we use GitHub Projects to organize our sprints and assign tasks. A 
 
 * [GitHub Projects documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
+![](images/backlog.png)
+
 Each task in the Project has the following metadata:
 * Title, linking to an active issue from the repository
 * Assignees
@@ -39,13 +41,21 @@ Each task in the Project has the following metadata:
 * Points, the numerical difficulty of a task
 * Sprint
 
+Also included in the Project is a Kaban board for tracking the current sprint's "To Do", "In Progress", "In Review", and "Done" tasks. During each stand-up meeting, project managers should review this board with the development team to check in on everyone's progress.
+
+![](images/kaban-board.png)
+
 ### Points
 
 Points provide an easy way for a project manager to prioritize and organize task assignment for an upcoming sprint. The more points a task has, the more difficult it may be and the more time it may take to complete. Points are based on the Fibonacci sequence as seen in the chart below.
 
+![](images/points.jpg)
+
 ### Velocity Chart
 
 The velocity chart displays the average amount of work a  team completes during a sprint. Teams can use velocity to predict how quickly they can work through the backlog because the report tracks the forecasted and completed work over several sprints. The more sprints, the more accurate the forecast.
+
+![](images/velocity-chart.png)
 
 A team's recent velocity can be useful in helping to predict how much work can be completed by the team in a future sprint. Velocity is calculated by taking the average of the total completed estimates over the last several sprints.
 
