@@ -22,8 +22,8 @@ In Teach LA, we use Agile to organize our dev teams, provide structure, and set 
 
 We use 3 week sprints and the Scrum meeting framework to emphasize open communication, collaboration, adaptation, and trust amongst team members. The Scrum meeting framework consists of four key "ceremonies" called Sprint Planning, Stand-up's, Sprint Review, and Sprint Retrospective.
 
-* [Agile workshop slides]()
-* [Dev Team Handbook]()
+* [Agile workshop slides](https://docs.google.com/presentation/d/1MpyQJGdKY7-3gyurdBAtuJmc9FMAWIGxk-lyyjIJi9c/edit#slide=id.g2863a25f085_1_883)
+* [Dev Team Handbook](https://docs.google.com/document/d/1e63pEz1Rld59DZQNH7umqmr4L8sWS0W9VYNnMlUkhUM/edit)
 * [Atlassian resources](https://www.atlassian.com/agile)
 
 ## GitHub Projects
