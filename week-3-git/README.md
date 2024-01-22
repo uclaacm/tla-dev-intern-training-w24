@@ -1,6 +1,6 @@
 # Week 3 - git good at Git <!-- omit in toc -->
 
-Have you ever used `git`? The ubiquitous program that dominates code versioning in industry has a lot more going for it than you might think. Below are Leo's notes for a deep dive into the inner-machinations of the utility we use every day.
+Have you ever used `git`? The ubiquitous program that dominates code versioning in industry has a lot more going for it than you might think. Read on for a deep dive into the inner-machinations of the utility we use every day.
 
 ## Table of Contents <!-- omit in toc -->
 - [Required Software](#required-software)

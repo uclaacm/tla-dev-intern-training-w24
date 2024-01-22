@@ -7,7 +7,7 @@
 
 ## Figma
 
-This section is led by Michelle Lee, Teach LA Design Director 2023-2024. Slides and exercises coming soon!
+This section is led by Michelle Lee, Teach LA Design Director 2023-2024.
 
 Included in this week are additional materials from the winter 2021 Dev Intern Training for reference.
 
