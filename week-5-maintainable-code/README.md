@@ -27,6 +27,11 @@ function byTwo(number){
 }
 ```
 
+<details>
+<summary>Answer</summary>
+While it's true that left-shifting by 1 and * 2 are equivalent operations (strictly, they form the same equivalence graph), I would argue that << 1 is harder to understand/unclear (even if there is a minor performance benefit in languages like C). So, when shooting for maintainability, I would instead do number * 2. Because JS numbers are floats, this turns out to also be more inefficient. But not the point of this example. Also, this (and a few others) are contrived functions.
+</details>
+
 [Source: Refactoring JS](https://refactoringjs.com/)
 
 ```js
@@ -39,12 +44,22 @@ function moreThanThree(number){
 };
 ```
 
+<details>
+<summary>Answer</summary>
+My biggest gripe is that this function returns different types depending on the condition, which makes this harder to reason about/test. Pulling out the string into the calling context probably makes more sense; Then, this function should return a boolean. (or, alternatively, make the number > 3 path return a string too). Of course, this is contrived, so this doesn't need to be a function, it could also just be return number > 3, etc.
+</details>
+
 [Source: "Ninja Code", Javascript.info](https://javascript.info/ninja-code)
 
 ```js
 // taken from a well-known javascript library
 i = i ? i < 0 ? Math.max(0, len + i) : i : 0;
 ```
+
+<details>
+<summary>Answer</summary>
+ This is too complicated of an expression for most novice programmers to understand in one read-through, especially since it involves precedence (how is a nested ternary processed?). Instead, at the bare minimum, use parentheses to make the intended precedence clear in this case, it's probably more reasonable to turn this into multiple lines (either if statements, a lambda, or sth else) just to make it easier to read!
+</details>
 
 [Source: "Ninja Code", Javascript.info](https://javascript.info/ninja-code)
 
@@ -59,6 +74,11 @@ function render() {
   signin(user);
 }
 ```
+
+<details>
+<summary>Answer</summary>
+ The inner user shadows the outer user. Not a good idea, since it makes it easy to mess up "which user" is being passed to signin, and could potentially be hiding a bug. ESLint's no-shadow should point this out!
+</details>
 
 [Source: "Bad Comments", Javascript.info](https://javascript.info/comments)
 
@@ -77,6 +97,11 @@ function showPrimes(n) {
 }
 
 ```
+
+<details>
+<summary>Answer</summary>
+    The comment is not helpful (since it doesn't really explain why this works, and it's positioned weirdly) but, I feel like the more confusing aspect of this code is the continue (goto in JS) + label, which is generally frowned upon (makes it hard to reason about control flow) + the fact that we use alert in the code, which makes this challenging to test.
+</details>
 
 ## General Discussion Topics
 
@@ -164,6 +189,7 @@ On training and mentoring:
 }
 ```
 
+
 [Source: static website](https://github.com/uclaacm/teach-la-website/blob/c914ada0230e00e74e86c85ab3828eec34956626/_sass/_basic.scss#L224)
 
 ```scss
@@ -190,6 +216,7 @@ On training and mentoring:
   }
 }
 ```
+
 
 [Source: static website](https://github.com/uclaacm/teach-la-website/blob/c914ada0230e00e74e86c85ab3828eec34956626/_sass/_accountability.scss#L1).
 
@@ -220,6 +247,7 @@ On training and mentoring:
 }
 ```
 
+
 [Source: static website](https://github.com/uclaacm/teach-la-website/blob/c914ada0230e00e74e86c85ab3828eec34956626/_sass/_basic.scss#L290)
 
 ```scss
@@ -228,6 +256,7 @@ On training and mentoring:
   margin-top: -70px;
 }
 ```
+
 
 ### Editor (short) - JS/React
 
@@ -256,6 +285,7 @@ badNameInput = () => {
 };
 ```
 
+
 [Source: Editor FE](https://github.com/uclaacm/TeachLAFrontend/blob/479fd75f846a1243191e920f94e9dc8d0a67189f/src/components/common/Radio.js#L75)
 
 ```jsx
@@ -278,6 +308,7 @@ if (isSelected) {
 }
 ```
 
+
 [Source: Editor FE](https://github.com/uclaacm/TeachLAFrontend/blob/479fd75f846a1243191e920f94e9dc8d0a67189f/src/components/common/ProfilePanel.js#L101)
 
 ```jsx
@@ -292,6 +323,7 @@ renderErrorMessage = (msg, addBreak) => {
   return addBreak ? <br /> : null;
 };
 ```
+
 
 ### Editor (long) - JS/React
 
@@ -364,6 +396,7 @@ handleSubmitEdit = async (e) => {
 };
 ```
 
+
 [Source: Editor FE](https://github.com/uclaacm/TeachLAFrontend/blob/479fd75f846a1243191e920f94e9dc8d0a67189f/src/components/Main.js#L88)
 
 ```jsx
@@ -396,6 +429,7 @@ renderEditor = () => (
   />
 );
 ```
+
 
 [Source: Editor FE](https://github.com/uclaacm/TeachLAFrontend/blob/479fd75f846a1243191e920f94e9dc8d0a67189f/src/components/Login.js#L88)
 
@@ -455,8 +489,8 @@ render = () => {
       </div>
     );
   };
-}
 ```
+
 
 [Source: Editor FE](https://github.com/uclaacm/TeachLAFrontend/blob/479fd75f846a1243191e920f94e9dc8d0a67189f/src/components/TextEditor/components/TextEditor.js#L69)
 
@@ -479,6 +513,7 @@ checkDirty = async () => {
   }
 };
 ```
+
 
 
 ## Refactoring Code, External
@@ -508,6 +543,7 @@ function transfer(from, amount) {
   accounts[getAccount()] += amount;
 }
 ```
+
 
 ### React - Custom Hooks
 
@@ -557,6 +593,7 @@ function FriendListItem(props) {
   );
 }
 ```
+
 
 ### React - HOC
 
@@ -631,6 +668,7 @@ class BlogPost extends React.Component {
   }
 }
 ```
+
 
 ## Licensing
 
