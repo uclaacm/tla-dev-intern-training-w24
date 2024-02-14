@@ -143,7 +143,7 @@ Time:        0.805 s
 Ran all test suites.
 ```
 
-And that's it! Jest has a variety of [additional assertions]((https://jestjs.io/docs/en/api) that you can explore at your leisure.
+And that's it! Jest has a variety of [additional assertions](https://jestjs.io/docs/en/api) that you can explore at your leisure.
 
 #### Testing React Components with Jest and Enzyme
 
